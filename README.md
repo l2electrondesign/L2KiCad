@@ -2,7 +2,7 @@
 Custom Symbol and Footprint libraries for KiCad
 
 ## How-To
-To use the libraries you need to add them to in KiCad.
+To use the libraries you need to add them in KiCad.
 
 Symbol library: `Preferences -> Manage Symbol Libraries... -> Add existing library to table -> L2KiCad_sch.kicad_sym`
 
