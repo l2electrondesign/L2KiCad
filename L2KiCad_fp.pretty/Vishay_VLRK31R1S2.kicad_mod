@@ -1,0 +1,169 @@
+(footprint "Vishay_VLRK31R1S2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Vishay VLRK31R1S2 with copper and mask cutouts for through-PCB illumination")
+	(property "Reference" "REF**"
+		(at 0 -2.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a1ab1f98-c65b-4e8a-b962-fb274f0ad9c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Vishay_VLRK31R1S2"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4daef9ff-92d3-4089-b6aa-f0e1c03d05cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a592f98-3fe4-405f-8b36-d88583d171fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8be3d425-965f-468b-bb54-4f52b1751db1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 1.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "60dc90cc-c611-44b9-920a-f2c05606b386")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "e5331399-ec18-4138-a95b-736717815c83")
+	)
+	(fp_line
+		(start -2.7 -1.7)
+		(end 1.3 -1.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4a986aa0-8e74-4a28-b14b-c6877f9cca32")
+	)
+	(fp_line
+		(start 1.3 1.7)
+		(end -1.3 1.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4f84fab0-8206-4ce5-897f-cf2b5c8dd479")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e6a34af9-0b46-45ad-aac6-605b0382ee6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.25 0)
+		(size 1.5 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "dc72a54e-8a14-4c20-9d32-8a3ac79f5073")
+	)
+	(pad "2" smd roundrect
+		(at 2.25 0)
+		(size 1.5 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "6928e434-d334-4496-80e1-4b4f88f57be9")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu")
+		(uuid "97fb30ce-5757-41ed-be64-b0b0473dea07")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 1.595068 -0.125535) (xy 1.555792 -0.373513) (xy 1.478207 -0.612293) (xy 1.364224 -0.835998)
+				(xy 1.21665 -1.039117) (xy 1.039117 -1.21665) (xy 0.835998 -1.364224) (xy 0.612293 -1.478207) (xy 0.373513 -1.555792)
+				(xy 0.125535 -1.595068) (xy -0.125535 -1.595068) (xy -0.373513 -1.555792) (xy -0.612293 -1.478207)
+				(xy -0.835998 -1.364224) (xy -1.039117 -1.21665) (xy -1.21665 -1.039117) (xy -1.364224 -0.835998)
+				(xy -1.478207 -0.612293) (xy -1.555792 -0.373513) (xy -1.595068 -0.125535) (xy -1.595068 0.125535)
+				(xy -1.555792 0.373513) (xy -1.478207 0.612293) (xy -1.364224 0.835998) (xy -1.21665 1.039117) (xy -1.039117 1.21665)
+				(xy -0.835998 1.364224) (xy -0.612293 1.478207) (xy -0.373513 1.555792) (xy -0.125535 1.595068)
+				(xy 0.125535 1.595068) (xy 0.373513 1.555792) (xy 0.612293 1.478207) (xy 0.835998 1.364224) (xy 1.039117 1.21665)
+				(xy 1.21665 1.039117) (xy 1.364224 0.835998) (xy 1.478207 0.612293) (xy 1.555792 0.373513) (xy 1.595068 0.125535)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
